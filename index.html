@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are you starving? - Quick Crave</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script1.js" defer></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">QuickCrave</div>
+        <button id="hamburger-menu" class="hamburger-menu" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+       <!-- Profile Section -->
+    <div class="user-profile" id="user-profile" style="display: none;">
+        <div class="avatar" id="avatar">F</div>
+        <span id="username-display">User</span>
+    </div>
+        
+        <div class="auth-buttons">
+            <a href="login.html" class="btn login-btn">Login</a>
+            <a href="signup.html" class="btn signup-btn">Sign Up</a>
+        </div>
+        
+        <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+        
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Are you starving?</h1>
+            <p>Order your favorite meals and have them delivered to your door!</p>
+            <form class="search-bar">
+                <input type="text" placeholder="Enter your location">
+                <button type="submit">Find Food</button>
+            </form>
+        </div>
+        <img src="ramen.png" alt="Delicious Ramen" class="hero-image">
+    </section>
+
+    <section id="menu" class="menu-preview">
+        <h2>Our Menu</h2>
+        <div class="food-gallery">
+            <div class="food-item">
+                <img src="dosa.png" alt="Spicy Dosa">
+                <h4>Spicy Dosa</h4>
+            </div>
+            <div class="food-item">
+                <img src="burger.png.jpeg" alt="Cheesy Burger">
+                <h4>Cheesy Burger</h4>
+            </div>
+            <div class="food-item">
+                <img src="salad.png" alt="Pepperoni Pizza">
+                <h4>Healthy Salad</h4>
+            </div>
+            <div class="food-item">
+                <img src="Paneer-Butter-Masala.jpg" alt="Creamy Pasta">
+                <h4>Paneer-Butter-Masala</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <p>We would love to hear from you!</p>
+            <p>Email: support@quickcrave.com</p>
+            <p>Phone: +123 456 7890</p>
+            <form class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <div class="about-content">
+           
+            <p>
+                At Quick Crave, we are dedicated to serving delicious, high-quality meals quickly and efficiently.
+                Our mission is to make food delivery seamless, so you can focus on enjoying your meal.
+                From spicy dishes to healthy salads, we cater to every taste and preference.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>2024 Quick Crave | Fast Food Delivery</p>
+    </footer>
+</body>
+</html>
